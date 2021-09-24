@@ -24,12 +24,15 @@ caption{
 
 /*END STARTER CODE*/
 
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+
 body{
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
   background-size: cover ;
   background-position: center;
+  font-family: 'Andika', sans-serif;
 
   /*Req 1*/
 }
