@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+
 /*STARTER CODE*/
 
 /*
@@ -24,8 +26,6 @@ caption{
 
 /*END STARTER CODE*/
 
-@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
-
 body{
   color: #000000;
   font-size: 16px;
@@ -33,6 +33,7 @@ body{
   background-color: #DDDDDD;
   background-image: url('../images/pigeon-background.JPEG');
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   font-family: 'Andika', sans-serif;
 
@@ -66,7 +67,6 @@ a{
 /*Add selector and rule here*/
 
 
-
 td{
   border-top: 2px solid black;
   padding: 10px;
@@ -79,6 +79,7 @@ td{
   min-width: 125px;
   text-transform: uppercase;
   background-color: #7e0825;
+  text-align: center;
 }
 
 .rowhead{
@@ -88,13 +89,16 @@ td{
   border-right: 2px solid black;
 }
 
-
 tr:nth-child(even){
   background-color: #DDDDDD;
 }
 
+tr:nth-child(odd){
+  background-color: #00000000
+}
+
 tr:hover{
-  background-color: #7e082525;
+  background-color: #7e082540;
 }
 
 table{
