@@ -80,6 +80,7 @@ td{
   text-transform: uppercase;
   background-color: #7e0825;
   text-align: center;
+  vertical-align: middle;
 }
 
 .rowhead{
@@ -90,11 +91,11 @@ td{
 }
 
 tr:nth-child(even){
-  background-color: #DDDDDD;
+  background-color: #D1D1D1;
 }
 
 tr:nth-child(odd){
-  background-color: #00000000
+  background-color: transparent;
 }
 
 tr:hover{
@@ -135,6 +136,6 @@ footer{
   min-height: 75px;
   width:100%;
   background:#000000;
-  text-align:center;
+  text-align: center;
   color: #FFFFFF;
 }
